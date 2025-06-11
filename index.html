@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>あっち向いてほい</title>
+</head>
+<body>
+    <div class="container">
+        <h1>あっち向いてほい</h1>
+        <div class="game-area">
+            <div class="player" id="player">プレイヤー</div>
+            <div class="computer" id="computer">コンピューター</div>
+            <div class="direction" id="direction">方向を選んでください</div>
+            <div class="buttons">
+                <button class="btn" id="up">上</button>
+                <button class="btn" id="down">下</button>
+                <button class="btn" id="left">左</button>
+                <button class="btn" id="right">右</button>
+            </div>
+            <div class="result" id="result">
+                <p>プレイヤーの選択: <span id="player-choice">なし</span></p>
+                <p>コンピューターの選択: <span id="computer-choice">なし</span></p>
+                <p>結果: <span id="result-text"></span></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
